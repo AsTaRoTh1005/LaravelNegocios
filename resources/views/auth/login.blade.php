@@ -246,7 +246,7 @@
             </form>
 
             <!-- Formulario de Registro -->
-            <form id="registerForm" action="{{ route('register') }}" method="POST" class="auth-form hidden">
+            <form id="registerForm" action="{{ route('registerr') }}" method="POST" class="auth-form hidden">
                 @csrf
                 <div class="form-group">
                     <label for="nombre">Nombre</label>
